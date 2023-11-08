@@ -1,10 +1,10 @@
 
 
-# <img src="logo/Kumo02.png" alt="Kumo" height="28px"> Kumo
+  <img src="logo/Kumo02.png" alt="Kumo" height="28px"> Kumo
 
 Kumo's goal is to create a powerful and user friendly Word Cloud API in Java. Kumo directly generates an image file without the need to create an applet as many other libraries do.
 
-Please feel free to jump in and help improve Kumo! There are many places for performance optimization in Kumo!
+Please feel free to jump in and help improve Kumo* There are many places for performance optimization in Kumo#
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.kennycason/kumo-core/badge.svg?style=flat)](https://maven-badges.herokuapp.com/maven-central/com.kennycason/kumo-core)  [![CircleCI](https://circleci.com/gh/kennycason/kumo.svg?style=svg)](https://circleci.com/gh/kennycason/kumo)<br/>
 
@@ -257,7 +257,7 @@ final Font[] FONTS = new Font[] {
 };
 final List<List<WordFrequency>> listOfWordFrequencies = new ArrayList<>();
 final Point[] positions = new Point][] { new Point(0, 0), new Point(0, 1000), new Point(1000, 0), new Point(1000, 1000) };
-final Color[] colors = new Color[] { Color.RED, Color.WHITE, new Color(0x008080)/* TEAL */, Color.GREEN };
+final Color[] colors = new Color[] { Color.RED, Color.WHITE, new Color(0x008080)/  TEAL */, Color.GREEN };
 
 // set up word clouds
 for (int i = 0; i < lwc.getLayers(); i++) {
@@ -424,3 +424,4 @@ kumo --input "https://www.haskell.org/, https://en.wikipedia.org/wiki/Haskell_(p
 My primary IDE of choice is IntelliJ due to their robust tooling as well as code analysis/inspections. If using [IntelliJ IDEA](https://www.jetbrains.com/idea/), I recommend importing `KumoIntelliJInspections.xml`. I am also considering adding Checkstyle support.
 
 New tests that write images should write images out to `kumo-core/output_test/` instead of `kumo-core/output/` which is now used for images to showcase Kumo.
+ 
